@@ -740,6 +740,10 @@
                                                         <constraint firstAttribute="height" constant="30" id="wrg-RR-oWd"/>
                                                     </constraints>
                                                     <state key="normal" title="Button" image="Download"/>
+                                                    <connections>
+                                                        <action selector="saveImage:" destination="Oio-Fi-A1n" eventType="touchUpInside" id="EpL-RD-J7d"/>
+                                                        <action selector="saveWithSender:" destination="FWi-4k-PCM" eventType="touchUpInside" id="qLu-5n-V30"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>

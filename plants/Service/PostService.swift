@@ -75,6 +75,7 @@ final class PostService {
         }
     }
     
+    //取得最新的Po文
     func getRecentPosts(start timestamp: Int? = nil, limit: UInt, completionHandler: @escaping ([Post]) -> Void) {
         
         var postQuery = POST_DB_REF.queryOrdered(byChild: Post.PostInfoKey.timestamp)
@@ -107,6 +108,7 @@ final class PostService {
         })
     }
     
+    //獲取舊的Po文
     func getOldPosts(start timestamp: Int, limit: UInt, completionHandler: @escaping ([Post]) -> Void){
         let postOrderedQuery = POST_DB_REF.queryOrdered(byChild: Post.PostInfoKey.timestamp)
         let postLimitedQuery = postOrderedQuery.queryEnding(atValue: timestamp - 1, childKey: Post.PostInfoKey.timestamp).queryLimited(toLast: limit)
@@ -128,5 +130,3 @@ final class PostService {
         })
     }
 }
-
-//trytrysee

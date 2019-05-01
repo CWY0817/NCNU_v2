@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		28BA695A858FF2E608E82553 /* Pods_plants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A19B8336E021BCBBCC8704 /* Pods_plants.framework */; };
 		AF1DB73A222E0FA40006C77F /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DB739222E0FA40006C77F /* CameraController.swift */; };
-		AF1E4F9D2234EB4700266519 /* HomeShareViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E4F9C2234EB4700266519 /* HomeShareViewCell.swift */; };
 		AF31609321226477003A3730 /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31609221226477003A3730 /* Plants.swift */; };
 		AF33018F2249404800FD2BAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF33018E2249404700FD2BAF /* GoogleService-Info.plist */; };
 		AF52FE572237856900A63EAB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52FE562237856900A63EAB /* SignUpViewController.swift */; };
@@ -23,9 +22,6 @@
 		AF906443211771C100526161 /* PlantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF906442211771C100526161 /* PlantsTableViewController.swift */; };
 		AF906445211771DF00526161 /* PlantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF906444211771DF00526161 /* PlantsTableViewCell.swift */; };
 		AF930C482277176A001DEB52 /* Flowers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AF930C472277176A001DEB52 /* Flowers.mlmodel */; };
-		AF9E0536222EC3F90075D69B /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E0535222EC3F90075D69B /* homeViewController.swift */; };
-		AF9E053B222EC9E60075D69B /* HomeDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E053A222EC9E60075D69B /* HomeDetailViewCell.swift */; };
-		AF9E053D222EC9F80075D69B /* HomeCameraViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E053C222EC9F80075D69B /* HomeCameraViewCell.swift */; };
 		AFB0F27C2192887900337185 /* Plantslocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB0F27B2192887900337185 /* Plantslocation.swift */; };
 		AFB0F27E2192893C00337185 /* Datatag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB0F27D2192893C00337185 /* Datatag.swift */; };
 		AFB0F28F2192D88800337185 /* mushin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFB0F28D2192D88800337185 /* mushin.otf */; };
@@ -68,7 +64,6 @@
 		61B6DBD31CEB72B8AA570AE7 /* Pods-plants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plants.release.xcconfig"; path = "Target Support Files/Pods-plants/Pods-plants.release.xcconfig"; sourceTree = "<group>"; };
 		77F8F53B4022405C80231031 /* Pods-plants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plants.debug.xcconfig"; path = "Target Support Files/Pods-plants/Pods-plants.debug.xcconfig"; sourceTree = "<group>"; };
 		AF1DB739222E0FA40006C77F /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
-		AF1E4F9C2234EB4700266519 /* HomeShareViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeShareViewCell.swift; sourceTree = "<group>"; };
 		AF31609221226477003A3730 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
 		AF33018E2249404700FD2BAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AF52FE562237856900A63EAB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -84,9 +79,6 @@
 		AF906442211771C100526161 /* PlantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsTableViewController.swift; sourceTree = "<group>"; };
 		AF906444211771DF00526161 /* PlantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsTableViewCell.swift; sourceTree = "<group>"; };
 		AF930C472277176A001DEB52 /* Flowers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Flowers.mlmodel; sourceTree = "<group>"; };
-		AF9E0535222EC3F90075D69B /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
-		AF9E053A222EC9E60075D69B /* HomeDetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewCell.swift; sourceTree = "<group>"; };
-		AF9E053C222EC9F80075D69B /* HomeCameraViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCameraViewCell.swift; sourceTree = "<group>"; };
 		AFB0F27B2192887900337185 /* Plantslocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plantslocation.swift; sourceTree = "<group>"; };
 		AFB0F27D2192893C00337185 /* Datatag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datatag.swift; sourceTree = "<group>"; };
 		AFB0F28D2192D88800337185 /* mushin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mushin.otf; sourceTree = "<group>"; };
@@ -163,7 +155,6 @@
 				AFCD75B721180B45002D13C1 /* PlantsDetailViewController.swift */,
 				AF70316E2175D52400B0B11B /* MapViewController.swift */,
 				AF1DB739222E0FA40006C77F /* CameraController.swift */,
-				AF9E0535222EC3F90075D69B /* homeViewController.swift */,
 				AF52FE562237856900A63EAB /* SignUpViewController.swift */,
 				AFBA1ED4223A10E30008CAA3 /* WelcomeViewController.swift */,
 				AFBA1EDE223ABBFB0008CAA3 /* LoginViewController.swift */,
@@ -191,9 +182,6 @@
 				AF70316A2175C13C00B0B11B /* PlantsDetailSeparatorCell.swift */,
 				AF70316C2175C1BB00B0B11B /* PlantsDetailMapCell.swift */,
 				AF906444211771DF00526161 /* PlantsTableViewCell.swift */,
-				AF9E053A222EC9E60075D69B /* HomeDetailViewCell.swift */,
-				AF9E053C222EC9F80075D69B /* HomeCameraViewCell.swift */,
-				AF1E4F9C2234EB4700266519 /* HomeShareViewCell.swift */,
 				AFEC26932249C0DC00FDD093 /* PostCell.swift */,
 			);
 			path = cell;
@@ -493,9 +481,7 @@
 			files = (
 				AFF6BBDF2250D58D00EC5AE8 /* PostService.swift in Sources */,
 				AF52FE572237856900A63EAB /* SignUpViewController.swift in Sources */,
-				AF9E053D222EC9F80075D69B /* HomeCameraViewCell.swift in Sources */,
 				AF70316F2175D52400B0B11B /* MapViewController.swift in Sources */,
-				AF9E053B222EC9E60075D69B /* HomeDetailViewCell.swift in Sources */,
 				AFEC26922249C09400FDD093 /* FeedTableViewController.swift in Sources */,
 				AFF35A4A225099FF000E88E9 /* UIImage+Scale.swift in Sources */,
 				AFB9BDA721762F5E00A5B78F /* Plants.xcdatamodeld in Sources */,
@@ -505,14 +491,12 @@
 				AFB0F27C2192887900337185 /* Plantslocation.swift in Sources */,
 				AFF17B0A22421D2100230AD4 /* ResetPwViewController.swift in Sources */,
 				AF31609321226477003A3730 /* Plants.swift in Sources */,
-				AF1E4F9D2234EB4700266519 /* HomeShareViewCell.swift in Sources */,
 				AFF6BBE122511D6A00EC5AE8 /* LineButton.swift in Sources */,
 				AF90643121176EAD00526161 /* AppDelegate.swift in Sources */,
 				AF906445211771DF00526161 /* PlantsTableViewCell.swift in Sources */,
 				AFCD75B821180B45002D13C1 /* PlantsDetailViewController.swift in Sources */,
 				AFBA1EDF223ABBFB0008CAA3 /* LoginViewController.swift in Sources */,
 				AF70316B2175C13C00B0B11B /* PlantsDetailSeparatorCell.swift in Sources */,
-				AF9E0536222EC3F90075D69B /* homeViewController.swift in Sources */,
 				AF70316D2175C1BB00B0B11B /* PlantsDetailMapCell.swift in Sources */,
 				AFB1914D2174E09F005E81F5 /* PlantsDetailIconTextCell.swift in Sources */,
 				AFB1914B2174DB48005E81F5 /* PlantsDetailHeaderView.swift in Sources */,

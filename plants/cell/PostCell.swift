@@ -28,6 +28,12 @@ class PostCell: UITableViewCell {
             avatarImageView.clipsToBounds = true
         }
     }
+    
+    //儲存照片至手機相簿
+    @IBAction func saveImage(_ sender: UIButton) {
+        let image = self.photoImageView.image!
+        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+    }
 
     private var currentPost: Post?
     var postdetail : Post?
@@ -43,21 +49,27 @@ class PostCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    //按讚
     var votecount = 0
     @IBAction func heartClick(_ sender: Any) {
         if let user = postdetail?.postId {
+            
+            //取得Firebase Database的Reference
             var postsRef = Database.database().reference().child("posts")
             var postRef = postsRef.child(user)
             
+            //更新Firebase Database的資料
             if let postdetail = postdetail {
-                postRef.updateChildValues(["imageFileURL": postdetail.imageFileURL,
-                                            "timestamp": postdetail.timestamp,
-                                            "user": postdetail.user,
-                                            "votes":votecount + 1
-                    
-                    ])
-                votecount = votecount + 1
-                voteButton.setTitle("\(votecount)", for: .normal)
+                    postRef.updateChildValues(["imageFileURL": postdetail.imageFileURL,
+                                               "timestamp": postdetail.timestamp,
+                                               "user": postdetail.user,
+                                               "votes":votecount + 1
+                        
+                        ])
+                    votecount = votecount + 1
+                    voteButton.setTitle("\(votecount)", for: .normal)
+
              }
         }
         
@@ -75,12 +87,11 @@ class PostCell: UITableViewCell {
         //設定Cell樣式
         selectionStyle = .none
         
-        //設定姓名與按讚樹
+        //設定姓名與按讚數
         nameLabel.text = post.user
 
         votecount = post.votes
         voteButton.setTitle("\(votecount)", for: .normal)
-        voteButton.tintColor = .black
         
         //重設圖片視圖的圖片
         photoImageView.image = nil

@@ -28,9 +28,9 @@ class PlantsTableViewController: UITableViewController,UISearchResultsUpdating {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //搜尋框
         searchController = UISearchController(searchResultsController: nil)
         self.navigationItem.searchController = searchController
-        //tableView.tableHeaderView = searchController.searchBar
         searchController.searchBar.placeholder = "搜尋植物名稱..."
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
@@ -132,9 +132,9 @@ class PlantsTableViewController: UITableViewController,UISearchResultsUpdating {
         
     }
     
+    //因為同一植物有多個座標,將location對應相對植物
     func count(){
         for index in 0...plantslocation.count-1{
-            //var count1 = 0
             for number in 0...49{
                 if (plantslocation[index].Pid - 1) == number {
                     plantslocationcount[number] = plantslocationcount[number] + 1
@@ -197,18 +197,6 @@ class PlantsTableViewController: UITableViewController,UISearchResultsUpdating {
             return cell
         }
 
-        
-        
-
-        /*let searchResults = (searchController.isActive) ? plantsearch[indexPath.row] : plants[indexPath.row]
-        
-        cell.nameLabel.text = searchResults.Cname
-        cell.familiaLabel.text = "學名: " + searchResults.Familia
-        cell.snameLabel.text = "科屬: " + searchResults.Sname
-        cell.plantsimage.image = UIImage(named: searchResults.Cname)
-        cell.heartIcon.isHidden = searchResults.Isee ? false : true
-
-        return cell*/
     }
 
 

@@ -43,26 +43,4 @@ class MapViewController: UIViewController,MKMapViewDelegate {
         mapView.showsScale = true
         mapView.showsTraffic = true
     }
-    
-    /*func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        let identifier = "MyMarker"
-        
-        if annotation.isKind(of: MKUserLocation.self){
-            return nil
-        }
-        
-        var annotationView : MKMarkerAnnotationView? = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
-        
-        if  annotationView == nil{
-            annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-        }
-        
-       // annotationView?.glyphImage = UIImage(named: plants.Cname)
-        annotationView?.markerTintColor = UIColor.orange
-        
-        return annotationView
-    }*/
-    
-
-
 }
