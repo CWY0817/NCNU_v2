@@ -239,7 +239,7 @@ class PlantsTableViewController: UITableViewController,UISearchResultsUpdating {
         db = SQLiteConnect(path: sqlitePath)
         plantsearch = []
         if let mydb = db {
-            let statement = mydb.search("plantdata", cond: "cname", searching: searchText)
+            let statement = mydb.search("plantdata", cond: "cname",cond2:"familia", searching: searchText)
             
             while sqlite3_step(statement) == SQLITE_ROW{
                 let pid = sqlite3_column_int(statement, 0)

@@ -142,7 +142,7 @@ class SQLiteConnect {
     
     // 搜尋
     func search(
-        _ tableName :String, cond :String?, searching :String?)
+        _ tableName :String, cond :String?, cond2:String? ,searching :String?)
         -> OpaquePointer {
             var statement :OpaquePointer? = nil
             var sql = "select * from \(tableName)"
@@ -151,6 +151,10 @@ class SQLiteConnect {
             }
             if let search = searching {
                 sql += " like '%\(search)%'"
+            }
+            
+            if let condition2 = cond2 , let search = searching{
+                sql += " OR \(condition2) like '%\(search)%'"
             }
             
             sqlite3_prepare_v2(
