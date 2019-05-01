@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>191532767435-3m9kmu3o6eop83dmm62o60jvag1jotue.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.191532767435-3m9kmu3o6eop83dmm62o60jvag1jotue</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAXP2-9SjK2Uo3pEh8vD2cbaup1vylckZY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>191532767435</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>viplab.NCNUplants</string>
+	<key>PROJECT_ID</key>
+	<string>plants-c3e64</string>
+	<key>STORAGE_BUCKET</key>
+	<string>plants-c3e64.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:191532767435:ios:ddfa42549396ab95</string>
+	<key>DATABASE_URL</key>
+	<string>https://plants-c3e64.firebaseio.com</string>
+</dict>
+</plist>
